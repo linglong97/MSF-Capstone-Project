@@ -1,41 +1,31 @@
-## Ani Theme rewritten in React.js
+## MSF Capstone Project
 
-[![Join the chat at https://gitter.im/start-react/sb-admin-react](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/start-react/sb-admin-react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-This project is a port of the famous [Free Ani AngularJS Theme](http://startangular.com/product/ani-theme/) to React.js Theme based on [Essential React](https://github.com/pheuter/essential-react) using ES6 & Webpack.
-
-Find out more [Free React.js and React Native Themes at StartReact.com](http://www.startreact.com/).
+This is my repo to play around with the front-end of my Capstone design project. There needs to be a user friendly UI which people can use to view portfolios and play around with several financial models. This template is currently based on: http://startangular.com/product/ani-theme/. Core Technologies: NodeJS, React, Bootstrap.
 
 ## Installation
-####1. Clone this project or Download that ZIP file
+
+####1. Make sure you have [npm](https://www.npmjs.org/) installed globally.
+####2. On the command prompt navigate to the directory where you want the project folder. For example:
 
 ```sh
-$ git clone https://github.com/start-react/ani-theme.git
+$ cd Documents
 ```
-
-####2.  Make sure you have [npm](https://www.npmjs.org/) installed globally
-
-More details here
-https://nodejs.org/en/download/ 
-
-####3. On the command prompt run the following commands
-
+####3. Clone the repo, i.e.
 ```sh
-$ cd `project-directory`
+$ git clone https://github.com/linglong97/MSF-Capstone-Project.git
 ```
+####4. Navigate to the rep, i.e.
 ```sh
-$ npm install 
+$ cd MSF-Capstone-Project
+```
+####5. Install dependencies from the Package.json file, then start the project.
+```sh
+npm install
 ```
 ```sh
-$ npm start
+npm start
 ```
-
-
-## Roadmap
-
-- Add sample AJAX calls and make the components more modular
-- Add chart examples
-
+Navigate to http://localhost:8080/(the default port) to view the webpack compiled project.
 
 ### Automation tools used
 - [Webpack](https://webpack.github.io/)
