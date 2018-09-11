@@ -26,7 +26,11 @@ npm install
 ```sh
 npm start
 ```
-Navigate to http://localhost:8080/(the default port) to view the webpack compiled project.
+In any web browser(Google Chrome preferred), navigate to 
+```sh
+http://localhost:8080
+```
+to view the webpack compiled code.
 
 ### Automation tools used
 - [Webpack](https://webpack.github.io/)
