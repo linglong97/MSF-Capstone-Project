@@ -4,21 +4,22 @@ This is my repo to play around with the front-end of my Capstone design project.
 
 ## Installation
 
-####1. Make sure you have [npm](https://www.npmjs.org/) installed globally.
-####2. On the command prompt navigate to the directory where you want the project folder. For example:
+1. Make sure you have [npm](https://www.npmjs.org/) installed globally.
+
+2. On the command prompt navigate to the directory where you want the project folder. For example:
 
 ```sh
 $ cd Documents
 ```
-####3. Clone the repo, i.e.
+3. Clone the repo, i.e.
 ```sh
 $ git clone https://github.com/linglong97/MSF-Capstone-Project.git
 ```
-####4. Navigate to the rep, i.e.
+4. Navigate to the rep, i.e.
 ```sh
 $ cd MSF-Capstone-Project
 ```
-####5. Install dependencies from the Package.json file, then start the project.
+5. Install dependencies from the Package.json file, then start the project.
 ```sh
 npm install
 ```
