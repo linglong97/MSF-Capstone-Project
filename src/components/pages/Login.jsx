@@ -18,13 +18,14 @@ var LoginPage = React.createClass({
   mixins: [History],
 
   render: function(){
-  
     return(
         <div className="login-page ng-scope ui-view"> 
           <div className="row"> 
+            <h1> Set your Preferences </h1>
+            <div></div>
             <div className="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4"> 
               <img src={require("../../common/images/flat-avatar.png")} className="user-avatar" /> 
-              <h1>Slick Portfolio <small>Making Money Easy</small></h1> 
+              <h1>Money Rocket<small> A simple Money Advisor</small></h1> 
               <form role="form" onSubmit={this.handleLogin} className="ng-pristine ng-valid"> 
                 <div className="form-content"> 
                   <div className="form-group"> 
@@ -33,11 +34,7 @@ var LoginPage = React.createClass({
                   <div className="form-group"> 
                     <input type="password" className="form-control input-underline input-lg" placeholder="Password" /> 
                   </div> 
-                  <div>
-                  New User? Register <span onClick = {this.handleRegister}> Here </span>
-                  </div>
                 </div> 
-                
                 <button type="submit" className="btn btn-white btn-outline btn-lg btn-rounded">Login</button> 
               </form> 
             </div> 
@@ -66,16 +63,12 @@ var LoginPage = React.createClass({
     });
 
   },
-  handleRegister: function(e){
-    e.preventDefault();
-    this.props.history.pushState(null, '/login')
-  },
-  
+
   handleLogin: function(e){
 
     e.preventDefault();
     this.props.history.pushState(null, '/dashboard/overview');
-    
+    alert("hello world!");
     // this.transitionTo('dashboard');
 
     return false;

@@ -21,7 +21,9 @@ const rootRoute = {
       indexRoute: {component: require('./components/pages/dashboard/Overview')},
       childRoutes: [
         require('./components/pages/dashboard/Overview'),
-        require('./components/pages/dashboard/Reports')
+        require('./components/pages/dashboard/Reports'),
+        require('./components/pages/dashboard/Preferences'),
+        require('./components/pages/dashboard/Portfolio')
       ]
     },
     {

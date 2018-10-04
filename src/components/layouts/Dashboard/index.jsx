@@ -53,7 +53,7 @@ var HomePage = React.createClass({
             <div className="row"> 
               <div className="col-sm-3 col-md-2 sidebar"> 
                 <div className="text-center"> 
-                  <h2 className="brand">Ani Theme <br /><small>Free React.js Edition</small></h2> 
+                  <h2 className="brand">Money Rocket <br /><small> Free Money Making Advice</small></h2> 
                   <img src={require("../../../common/images/flat-avatar.png")} className="user-avatar" />
                   <br /> 
                   <Link to="/login" className="btn btn-white btn-outline btn-rounded btn-sm">Logout</Link> 
@@ -66,6 +66,12 @@ var HomePage = React.createClass({
                   <li>
                     <Link to="/dashboard/reports">Reports</Link>
                   </li> 
+                  <li>
+                    <Link to= "/dashboard/preferences">Preferences </Link>
+                  </li>
+                  <li>
+                    <Link to= "/dashboard/portfolio"> Portfolio </Link>
+                  </li>
                 </ul> 
               </div>
 

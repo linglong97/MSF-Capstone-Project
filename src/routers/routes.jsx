@@ -6,10 +6,11 @@ import DashboardLayout from "../components/layouts/Dashboard";
 
 import DashboardOverviewPage from "../components/pages/dashboard/Overview";
 import DashboardReportsPage from "../components/pages/dashboard/Reports";
+import DashboardPreferencesPage from "../components/pages/dashboard/Preferences";
+import DashboardPortfolioPage from "../components/pages/dashboard/Portfolio";
 import LoginPage from "../components/pages/Login";
 
 var Routes = React.createClass({
-
   statics: {
     getRoutes: function() {
       return (
@@ -17,6 +18,8 @@ var Routes = React.createClass({
             <Route name="dashboard" path="/dashboard" handler={DashboardLayout}>
               <Route name="dashboard.overview" path="/overview" handler={DashboardOverviewPage} />
               <Route name="dashboard.reports" path="/reports" handler={DashboardReportsPage} />
+              <Route name= "dashboard.preferences" path = "/preferences" handler = {DashboardPreferencesPage} />
+              <Route name= "dashboard.portfolio" path = "/portfolio" handler = {DashboardPortfolioPage} />
               <DefaultRoute name="dashboard.default" handler={DashboardOverviewPage} />
             </Route>
             <Route name="login" path="/login" handler={LoginPage} />
