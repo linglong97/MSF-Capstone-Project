@@ -1,7 +1,8 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from "react-router";
 import {Jumbotron} from 'react-bootstrap';
-import { BarChart } from "react-chartjs";
+import { Button, Form, FormGroup, Label, Input, FormText } from 'react-bootstrap';
+import { Alert } from "reactstrap";
 
 var Prefs = React.createClass({
   render: function() {
@@ -9,26 +10,30 @@ var Prefs = React.createClass({
       <div key="reports" className="reports-page">
         <div className="ng-scope"> 
           <Link to="/dashboard/overview" className="pull-right btn btn-primary btn-outline btn-rounded">Back to Overview</Link> 
-          <h2>Your Preferences</h2>
+          <h2>Set your portfolio Preferences</h2>
           <Jumbotron> 
-            <h1>Add Charts here</h1> 
-            <p>You can use C3.js or Chart.js</p> 
+            <h1>Your Past Preferences</h1> 
+            <p>Some useful information about the preferences</p> 
             <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p> 
           </Jumbotron> 
         </div>
         <div className = "row">
             <Jumbotron className = "half two">
-                <h1> Chart1 Here </h1>
+                <h2> Example of preferences </h2>
+                
             </Jumbotron>
+            <Alert color="primary">
+                hello world!
+            </Alert>
             <Jumbotron className = "half">
-                <h1> Chart2 Here </h1>
+                <h2> More Preferences here</h2>
             </Jumbotron>
         </div>
       </div>
-      
     );
   }
 
 });
 
 export default Prefs;
+

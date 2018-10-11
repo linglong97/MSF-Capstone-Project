@@ -75,6 +75,7 @@
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^0.14.9",
     "react-router": "^1.0.0-rc2",
+    "reactstrap": "^6.5.0",
     "resource-api-utils": "^1.0.0",
     "salad-ui.chart": "^1.1.55",
     "style-loader": "^0.12.3",

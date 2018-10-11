@@ -21,7 +21,7 @@ var LoginPage = React.createClass({
     return(
         <div className="login-page ng-scope ui-view"> 
           <div className="row"> 
-            <h1> Set your Preferences </h1>
+            <h1> Login or Register </h1>
             <div></div>
             <div className="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4"> 
               <img src={require("../../common/images/flat-avatar.png")} className="user-avatar" /> 

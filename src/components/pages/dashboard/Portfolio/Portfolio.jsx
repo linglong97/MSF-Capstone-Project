@@ -3,8 +3,7 @@ import { Link } from "react-router";
 import {Jumbotron, Tabs, Tab} from 'react-bootstrap';
 import { BarChart } from "react-chartjs";
 import { Line } from 'react-chartjs-2';
-import Layout from "./chart";
-
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 var portfolio = React.createClass({
   render: function() {
@@ -15,7 +14,9 @@ var portfolio = React.createClass({
                 <div className="ng-scope"> 
                     <Link to="/dashboard/overview" className="pull-right btn btn-primary btn-outline btn-rounded">Back to Home Page</Link> 
                     <h2>Portfolio 1</h2> 
-
+                    <Breadcrumb>
+                        <BreadcrumbItem active>Home</BreadcrumbItem>
+                    </Breadcrumb>
                     <i className="glyphicon glyphicon-dashboard bg-fade"></i>
                     <Jumbotron> 
                         <h1>Filler</h1> 
@@ -23,7 +24,6 @@ var portfolio = React.createClass({
                         <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p> 
                     </Jumbotron> 
                 </div>
-                <Layout />
             </Tab>
             <Tab eventKey={2} title="Portfolio 2">
                 <div className="ng-scope"> 
