@@ -10,7 +10,7 @@ var Buttons = React.createClass({
       <div key="reports" className="reports-page">
         <div className="ng-scope"> 
           <Link to="/dashboard/overview" className="pull-right btn btn-primary btn-outline btn-rounded">Back to Overview</Link> 
-          <h2>Reports <small>Work with Chart.js and D3</small></h2> 
+          <h2>Backtesting <small>Backtest your portfolio on historical data</small></h2> 
 
           <i className="glyphicon glyphicon-dashboard bg-fade"></i>
           <Jumbotron> 

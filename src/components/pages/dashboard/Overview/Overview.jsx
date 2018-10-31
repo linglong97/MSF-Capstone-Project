@@ -6,7 +6,7 @@ var Blank = React.createClass({
   render: function() {
     return (
       <div className="overview-page" key="overview"> 
-        <Link to="/dashboard/reports" className="pull-right btn btn-primary btn-outline btn-rounded">Reports</Link> 
+        <Link to="/dashboard/Backtesting" className="pull-right btn btn-primary btn-outline btn-rounded">Backtesting</Link> 
         <h2>Overview <small> Welcome to Money Rocket</small></h2> 
         <Jumbotron> 
           <h1>Welcome!</h1> Making money doesn't have to be hard. We make it easy for you to build a portfolio and view how you're doing.

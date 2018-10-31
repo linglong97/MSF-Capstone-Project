@@ -64,10 +64,10 @@ var HomePage = React.createClass({
                     <Link to="/dashboard/overview">Overview</Link>
                   </li> 
                   <li>
-                    <Link to="/dashboard/reports">Reports</Link>
+                    <Link to="/dashboard/backtesting">Backtesting</Link>
                   </li> 
                   <li>
-                    <Link to= "/dashboard/preferences">Preferences </Link>
+                    <Link to= "/dashboard/preferences"> Preferences </Link>
                   </li>
                   <li>
                     <Link to= "/dashboard/portfolio"> Portfolio </Link>
