@@ -34,3 +34,6 @@ to view the webpack compiled code.
 
 ### Automation tools used
 - [Webpack](https://webpack.github.io/)
+
+### Preview
+![preview](preview.png)
