@@ -64,13 +64,13 @@ var HomePage = React.createClass({
                     <Link to="/dashboard/overview">Overview</Link>
                   </li> 
                   <li>
-                    <Link to="/dashboard/backtesting">Backtesting</Link>
-                  </li> 
-                  <li>
-                    <Link to= "/dashboard/preferences"> Preferences </Link>
+                    <Link to= "/dashboard/portfolio"> Generate a Portfolio</Link>
                   </li>
                   <li>
-                    <Link to= "/dashboard/portfolio"> Portfolio </Link>
+                    <Link to="/dashboard/backtesting">Backtest your Portfolio</Link>
+                  </li> 
+                  <li>
+                    <Link to= "/dashboard/preferences"> Improve your Portfolio </Link>
                   </li>
                 </ul> 
               </div>

@@ -39,28 +39,22 @@ var Prefs = React.createClass({
       <div key="reports" className="reports-page">
         <div className="ng-scope"> 
           <Link to="/dashboard/overview" className="pull-right btn btn-primary btn-outline btn-rounded">Back to Overview</Link> 
-          <h2>Set your portfolio Preferences</h2>
+          <h2>Construct an improved portfolio based on your current portfolio</h2>
           <Jumbotron> 
-            <h1>Your Past Preferences</h1> 
-            <p>Some useful information about the preferences</p> 
+            <h1>Enter your current portfolio details here</h1> 
+            <p>Some useful information</p> 
             <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p> 
           </Jumbotron> 
         </div>
         <div className = "row">
             <Jumbotron className = "half two">
-                <h2> Example of preferences </h2>
+                <h2> Example of improved portfolio</h2>
                 
             </Jumbotron>
             <Jumbotron className = "half">
-                <h2> More Preferences here</h2>
+                <h2> Example of improved past portfolio</h2>
             </Jumbotron>
         </div>
-        <Bar
-	         data={data}
-	         width={100}
-	         height={50}
-	         options={options}
-        />
       </div>
     );
   }

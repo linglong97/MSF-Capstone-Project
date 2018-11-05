@@ -32,10 +32,15 @@ var portfolio = React.createClass({
 
                     <i className="glyphicon glyphicon-dashboard bg-fade"></i>
                     <Jumbotron> 
-                        <h1>Filler</h1> 
-                        <p>Charts here</p> 
-                        <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p> 
+                        <h1>Generate a portfolio</h1> 
+                        <p>Money Rocket gurantees the lowest risk portfolio for your target return.</p> 
+                        <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Enter your return goal and time horizon</a> </p> 
                     </Jumbotron> 
+                    <form>
+                        Hello 
+                        <input type="text" name="firstname" value=""/>
+                        
+                    </form> 
                 </div>
             </Tab>
             <Tab eventKey={3} title="Portfolio 3" disabled>

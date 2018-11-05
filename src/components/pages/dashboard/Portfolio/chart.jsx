@@ -32,6 +32,7 @@ class Layout extends React.Component {
       <div>
         <canvas
           style={{ width: 800, height: 300 }}
+          ref={node => (this.node = node)}
         />
       </div>
     )
