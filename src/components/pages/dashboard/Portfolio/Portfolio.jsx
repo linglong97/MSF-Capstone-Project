@@ -1,10 +1,19 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from "react-router";
-import {Jumbotron, Tabs, Tab} from 'react-bootstrap';
+import {Jumbotron, Tabs, Tab, FormControl, FormGroup, ControlLabel, HelpBlock} from 'react-bootstrap';
 import { BarChart } from "react-chartjs";
 import { Line } from 'react-chartjs-2';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
+function FieldGroup({ id, label, help, ...props }) {
+    return (
+      <FormGroup controlId={id}>
+        <ControlLabel>{label}</ControlLabel>
+        <FormControl {...props} />
+        {help && <HelpBlock>{help}</HelpBlock>}
+      </FormGroup>
+    );
+  }
 var portfolio = React.createClass({
   render: function() {
     return (
@@ -36,11 +45,18 @@ var portfolio = React.createClass({
                         <p>Money Rocket gurantees the lowest risk portfolio for your target return.</p> 
                         <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Enter your return goal and time horizon</a> </p> 
                     </Jumbotron> 
-                    <form>
-                        Hello 
-                        <input type="text" name="firstname" value=""/>
-                        
-                    </form> 
+                    <Jumbotron>
+                        <form>
+                            <h2>Enter the desired return of your portfolio</h2> 
+                            <input type="text" name="firstname" value=""/>
+                            <h2>Enter the timeframe you want to test your portfolio on</h2>
+                            <input type="text" name="firstname" value=""/>
+                            <div/>
+                            <div/>
+                            <input type = "submit" />
+
+                        </form> 
+                    </Jumbotron>
                 </div>
             </Tab>
             <Tab eventKey={3} title="Portfolio 3" disabled>

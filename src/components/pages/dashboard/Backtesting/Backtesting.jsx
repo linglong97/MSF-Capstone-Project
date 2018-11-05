@@ -16,7 +16,7 @@ var Buttons = React.createClass({
           <Jumbotron> 
             <h1>Previously Backtested Portfolio here</h1> 
             <p>You can backtest on different time frames.</p> 
-            <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p> 
+            <p> <a className="btn btn-primary btn-lg btn-outline btn-rounded">Backtest Another Portfolio</a> </p> 
           </Jumbotron> 
           <Table striped bordered condensed hover>
   <thead>
